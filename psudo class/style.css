@@ -1,0 +1,294 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.header-container{
+    display: flex;
+    width: 100%;
+    height: 100px;
+
+}
+.header-box{
+    width: 1100Px;
+    display: flex;
+    margin: auto;
+   
+    align-items: center;
+    justify-content: center;
+   justify-content: space-between;
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+nav a{
+    
+    color:#075c83;
+    
+    text-decoration: none;
+}
+.hed-btn{
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #075c83;
+}
+.hd-btl{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    
+    color:  #075c83;
+}
+
+/* blog-section */
+
+.blog-container{
+    margin-top: 150px;
+    
+}
+
+
+.blog-section img{
+    width: 250px;
+}
+.blog-section{
+    width: 1100Px;
+    margin:auto;
+background-color: #65dbdb;
+    position: absolute;
+}
+
+.blog-box1{
+ width: 300px;
+    height: 220px;
+    padding: 15px;
+    left: 161Px;
+    position: absolute;
+
+}
+
+.blg-btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #075c83;
+}
+.blg-btn a{
+color: white;
+text-decoration: none;
+}
+.blog-box2{
+    width: 250px;
+    height: 300px;
+    padding: 5px;
+    left:1002px ;
+    position: absolute;
+}
+
+.heading{
+    font-size: 28px;
+    color: #075c83;
+    position: relative;
+    z-index:2;
+}
+.blog-box1 p{
+    color: #444545;
+}
+.heading::before{
+    content: "";
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    background-image:url("cloud.png");
+   background-repeat: no-repeat;
+   background-size:cover;
+   border-radius: 50%;
+   left: -80px;
+   bottom: -15px;
+    z-index: -1;
+}
+
+/* blog section2 */
+
+.product-container{
+    margin-top: 600px;
+    width:100%;
+    height:400px;
+    
+   
+}
+.product-container{
+    position: relative;
+}
+
+.item-box{
+    width: 1100px;
+    height: 300Px;
+    
+    
+}
+.item-box{
+    margin: auto;
+    position: relative;
+}
+
+.item1{
+    content: "";
+    position: relative;
+}
+.item1{
+content:"";
+    position: absolute;
+
+}
+.item1 img{
+    width: 350px;
+    
+}
+
+.item2{
+    content: ;
+    position: relative;
+}
+
+.item2{
+    width: 400px;
+    height: 230px;
+    padding: 10px;
+    content: "";
+    position: absolute;
+    left: 680px;
+   
+}
+
+.content-head{
+    position: relative;
+}
+.content-head::before{
+    content: "";
+    width: 70px;
+    height: 3px;
+    top: -6px;
+    background-color: #12a1ba;
+    position: absolute;
+   
+
+}
+
+.bg2-btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #075c83;
+}
+
+.content-head{
+    color: #075c83;
+    font-size: 20px;
+
+}
+.item2 p{
+    color: #444545 ;
+}
+.bg2-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.blgs-container{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+   background-image: url(sky.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   z-index: 1;
+   
+}
+.blgs-container::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #09a1bc90;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.content-box{
+   width: 1100px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+   
+}
+.bl-bx1{
+    width: 250Px;
+ 
+}
+
+.head-text{
+    font-size: 25px;
+    color: #075c83;
+}
+
+.bl-bx2 img{
+    width: 340px;
+}
+
+
+.fnl-btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #075c83;
+}
+.fnl-btn a{
+    margin-bottom: -20px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    
+    background-color:#385F96;
+}
+.footer-sec{
+    width: 200Px;
+    height: 50px;
+    
+    margin:auto;
+    text-align: center;
+}
+.footer-sec{
+    margin-bottom: 10px;
+}
+   
+.footer-sec h4{
+    color: white;
+    font-size: 15px;
+   
+}
+
+footer img{
+    width: 12px;
+}
