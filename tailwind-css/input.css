@@ -1,0 +1,19 @@
+
+body {
+   color: rgb(54, 205, 205); 
+}
+.first-box{
+    background: #e84343;
+    width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.hello{
+    background-color: rgb(32, 152, 152);
+    width: 300px;
+    height: 250px;
+    padding:10px ;
+    text-align: center;
+    border-radius: 5px;
+}
