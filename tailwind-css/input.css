@@ -8,6 +8,8 @@ body {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
+    font-size: medium;
+    color: aliceblue;
 }
 .hello{
     background-color: rgb(32, 152, 152);
